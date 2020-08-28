@@ -3,7 +3,7 @@ package com.dipjul.application.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.dipjul.application.entity.Client;
+import com.dipjul.application.domain.Client;
 import com.dipjul.application.repository.ClientRepository;
 
 import java.util.List;
