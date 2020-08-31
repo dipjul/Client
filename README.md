@@ -5,11 +5,13 @@
 
 ## REST APIs
 
+#### POST `/auth/signin` - json {"username":"yourUsername", "password":"yourPassword"}
 #### GET `/clients`
 #### GET `/clients/{id}`
 #### POST `/clients`
 #### PUT `/clients/{id}`
 #### DELETE `/clients/{id}`
+#### GET `/me` - details related to your account
 
 ## For changing database:
 - Change the dependencies on pom.xml file
@@ -17,6 +19,9 @@
 
 ## Running for the first time:
 - Uncomment the below code on DataInitializer.java
+Below code with create two users:<br>
+1. username:user, password:password, role:user
+2. username:admin, password:password, role:admin
 ```java
         this.users.save(User.builder()
             .username("user")
