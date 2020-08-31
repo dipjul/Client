@@ -18,7 +18,7 @@
 - Change the details on src/main/resources/application.properties
 
 ## Running for the first time:
-- Uncomment the below code on DataInitializer.java
+- Uncomment the below code on DataInitializer.java<br>
 Below code with create two users:<br>
 1. username:user, password:password, role:user
 2. username:admin, password:password, role:admin
